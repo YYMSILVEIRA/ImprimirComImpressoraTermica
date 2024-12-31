@@ -1,6 +1,4 @@
-"""Biblioteca responsável pelo processo de impressão das notas
-A ideia é que esse seja um script compilado a parte que será chamado via
-parametros de execução com o arquivo gerado pelo sistema."""
+"""Biblioteca responsável pelo processo de impressão das notas."""
 
 import win32print
 import time
