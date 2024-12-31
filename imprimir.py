@@ -173,7 +173,7 @@ class ImprimirDocumento:
 \n
 ===============================================\n
                 IB2S Softwares                 \n
-            Rua dos Metalurgicos-67            \n
+            Rua dos Bancários - 31             \n
                 Bairro Santa Rosa              \n
                    Taquara - RS                \n
 ===============================================\n
@@ -191,7 +191,7 @@ TOTAL:                           R$22,00       \n
 """
 imprimir = ImprimirDocumento("TM_T20X", "Nota Fiscal")
 #imprimir.conteudoImpressao(conteudo)
-imprimir.imprimir_imagem("F:\caixaQt-master\Frente-de-caixa\cryptasec2\IconeCryptSec.png",484)
+imprimir.imprimir_imagem("Caminho da sua imagem.",484)
 imprimir.corteTotalPapel()
 imprimir.fecharImpressao()
 '''
